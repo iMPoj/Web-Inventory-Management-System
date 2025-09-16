@@ -80,20 +80,20 @@ session_start();
         <main id="main-content" class="flex-1 overflow-y-auto p-4 md:p-8">
             <div id="page-content-wrapper" class="max-w-7xl mx-auto">
                 <?php
-                    include 'dashboard.php';
-                    include 'stocks_dashboard.php';
-                    include 'encoder.php';
-                    include 'admin.php';
-                    include 'order_book.php';
-                    include 'unserved.php';
-                    include 'fulfillable.php';
-                    include 'pdf_review.php';
+                    include 'pages/dashboard.php';
+                    include 'pages/stocks_dashboard.php';
+                    include 'pages/encoder.php';
+                    include 'pages/admin.php';
+                    include 'pages/order_book.php';
+                    include 'pages/unserved.php';
+                    include 'pages/fulfillable.php';
+                    include 'pages/pdf_review.php';
                 ?>
             </div>
         </main>
     </div>
     
-    <?php include 'modals.php'; ?>
+    <?php include 'components/modals.php'; ?>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script type="module" src="js/main.js"></script>

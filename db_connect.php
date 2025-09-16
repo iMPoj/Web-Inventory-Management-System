@@ -46,4 +46,3 @@ try {
      // Terminate the script immediately to prevent further errors.
      exit;
 }
-?

@@ -10,4 +10,5 @@
     activeTab: 'dashboard',
     editingOrderId: null,
     editingOrderDetails: null,
-    isPdfWorkflowActive: false // <-- ADDED THIS LINE
+    isPdfWorkflowActive: false, // <-- ADDED THIS LINE
+};
